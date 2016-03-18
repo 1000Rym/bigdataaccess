@@ -4,6 +4,7 @@ import java.util.List;
 
 public class MovieReviewTest {
 	/**
+	 * This class is created for testing NaverMovieReviewParser.java
 	 * @author  Rym.Thousand
 	 * @date 2015.04.30
 	 */	

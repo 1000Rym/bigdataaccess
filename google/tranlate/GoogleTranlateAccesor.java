@@ -6,11 +6,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class GoogleTranlateAccesor {
+	
+	/**
+	 * @author Rym.Thousand
+	 * @date 2016.01.20
+	 * @version 1.0.0
+	 * @description This program is designed for translate sentence by using selenum
+	 * @see http://www.seleniumhq.org/download/
+	 */
+	
 	public final static String KOREAN = "ko";
 	public final static String ENGLISH = "en";
 	public final static String CHINSE_SIMPLIFIED = "zh-CN";
 	public final static String CHINSE_TRADITIOANL = "zh-TW";
 	public final static String JAPANESE = "ja";
+	
+	
 
 	private WebDriver mDriver;
 	private final String googleTranslateDefaultURL = "https://translate.google.co.kr/?hl=en&tab=TT#";
